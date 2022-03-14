@@ -17,10 +17,12 @@
             android:id="@+id/recyclerView"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/end"
             app:layout_constraintStart_toEndOf="@id/start"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/recipe_list_item" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/start"
@@ -37,10 +39,10 @@
             app:layout_constraintGuide_end="8dp" />
 
         <androidx.constraintlayout.widget.Group
-            android:id="@+id/group"
+            android:id="@+id/group_empty_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:constraint_referenced_ids="tv_empty_data,iv_empty_data"/>
+            app:constraint_referenced_ids="tv_empty_data,iv_empty_data" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton2"
@@ -49,19 +51,19 @@
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="32dp"
             android:clickable="true"
+            android:focusable="true"
             app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/ic_search"
-            app:tint="@color/white"
-            android:focusable="true" />
+            app:tint="@color/white" />
 
         <ImageView
             android:id="@+id/iv_empty_data"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:alpha="0.5"
             android:contentDescription="@string/content"
             android:scaleType="centerCrop"
-            android:alpha="0.5"
             app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
             app:layout_constraintEnd_toEndOf="@+id/recyclerView"
             app:layout_constraintStart_toStartOf="@+id/recyclerView"
@@ -73,10 +75,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
+            android:alpha="0.5"
             android:text="@string/no_data_available"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:alpha="0.5"
             app:layout_constraintEnd_toEndOf="@+id/iv_empty_data"
             app:layout_constraintStart_toStartOf="@+id/iv_empty_data"
             app:layout_constraintTop_toBottomOf="@+id/iv_empty_data" />
