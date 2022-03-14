@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/lightMediumGray"
+    android:layout_margin="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:contentDescription="@string/content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/placeholder" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/courgette"
+            android:maxLines="2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/placeholder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_image"
+            app:layout_constraintTop_toTopOf="@+id/iv_image"
+             />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:background="@color/placeholder"
+            app:layout_constraintEnd_toEndOf="@+id/tv_title"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_title"
+             />
+
+        <ImageView
+            android:id="@+id/iv_like"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/content"
+            android:scaleType="centerCrop"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@+id/iv_image"
+            app:layout_constraintStart_toStartOf="@+id/tv_description"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description"
+            app:srcCompat="@color/placeholder" />
+
+        <TextView
+            android:id="@+id/tv_like_total"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:background="@color/placeholder"
+            app:layout_constraintEnd_toEndOf="@+id/iv_like"
+            app:layout_constraintStart_toStartOf="@+id/tv_description"
+            app:layout_constraintTop_toBottomOf="@+id/iv_like"
+            />
+
+        <ImageView
+            android:id="@+id/iv_duration"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="24dp"
+            android:contentDescription="@string/content"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toEndOf="@+id/iv_like"
+            app:layout_constraintTop_toTopOf="@+id/iv_organic"
+            app:srcCompat="@color/placeholder" />
+
+        <TextView
+            android:id="@+id/tv_duration_total"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:background="@color/placeholder"
+            app:layout_constraintEnd_toEndOf="@+id/iv_duration"
+            app:layout_constraintStart_toStartOf="@+id/iv_duration"
+            app:layout_constraintTop_toBottomOf="@+id/iv_duration"
+            />
+
+        <ImageView
+            android:id="@+id/iv_organic"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="24dp"
+            android:contentDescription="@string/content"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toEndOf="@+id/iv_duration"
+            app:layout_constraintTop_toTopOf="@+id/iv_like"
+            app:srcCompat="@color/placeholder" />
+
+        <TextView
+            android:id="@+id/tv_organic_total"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:background="@color/placeholder"
+            app:layout_constraintEnd_toEndOf="@+id/iv_organic"
+            app:layout_constraintStart_toStartOf="@+id/iv_organic"
+            app:layout_constraintTop_toBottomOf="@+id/iv_organic"
+             />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
