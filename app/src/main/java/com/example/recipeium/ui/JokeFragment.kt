@@ -1,10 +1,11 @@
-package com.example.recipeium
+package com.example.recipeium.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.recipeium.R
 
 
 class JokeFragment : Fragment() {

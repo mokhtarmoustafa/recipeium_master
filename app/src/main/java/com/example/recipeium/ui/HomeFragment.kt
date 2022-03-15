@@ -1,4 +1,4 @@
-package com.example.recipeium
+package com.example.recipeium.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

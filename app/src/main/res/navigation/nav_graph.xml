@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.recipeium.HomeFragment"
+        android:name="com.example.recipeium.ui.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/favouriteFragment"
-        android:name="com.example.recipeium.FavouriteFragment"
+        android:name="com.example.recipeium.ui.FavouriteFragment"
         android:label="@string/favourites"
         tools:layout="@layout/fragment_favourite" />
     <fragment
         android:id="@+id/jokeFragment"
-        android:name="com.example.recipeium.JokeFragment"
+        android:name="com.example.recipeium.ui.JokeFragment"
         android:label="@string/joke"
         tools:layout="@layout/fragment_joke" />
 </navigation>
