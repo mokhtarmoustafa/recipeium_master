@@ -72,10 +72,11 @@ dependencies {
     // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.squareup.okhttp3:logging-interceptor:4.7.2"
 
     //Dagger - Hilt
     implementation "com.google.dagger:hilt-android:2.31-alpha"
-    kapt "com.google.dagger:hilt-android-compiler:2.28-alpha"
+    kapt "com.google.dagger:hilt-android-compiler:2.31.2-alpha"
 
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
     kapt "androidx.hilt:hilt-compiler:1.0.0"
@@ -94,6 +95,7 @@ dependencies {
     implementation "io.coil-kt:coil:0.13.0"
    // shimmer effect
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
+//    implementation 'com.todkars:shimmer-recyclerview:0.4.0'
     // Gson
     implementation 'com.google.code.gson:gson:2.8.6'
 
