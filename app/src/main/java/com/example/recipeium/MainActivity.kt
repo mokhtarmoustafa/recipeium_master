@@ -12,19 +12,19 @@ import com.example.recipeium.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     //region variables
-    private lateinit var binding: ActivityMainBinding
-    private lateinit var navHostFragment: NavHostFragment
     private lateinit var navController: NavController
+    private lateinit var navHostFragment: NavHostFragment
+    private lateinit var binding: ActivityMainBinding
     private lateinit var appBarConfiguration: AppBarConfiguration
-    //endregion
+
 
     //region events
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        init()
 
+        init()
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -39,9 +39,9 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.findNavController()
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.layout.fragment_recipe,
-                R.layout.fragment_favourite2,
-                R.layout.fragment_joke2
+                R.id.recipeFragment,
+                R.id.favouriteFragment2,
+                R.id.jokeFragment2
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
