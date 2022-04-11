@@ -23,11 +23,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         init()
 
     }
 
+    override fun onSupportNavigateUp(): Boolean {
+        return navController.navigateUp() || super.onSupportNavigateUp()
+    }
     //endregion
 
     //region helper functions
@@ -42,8 +44,9 @@ class MainActivity : AppCompatActivity() {
                 R.layout.fragment_joke2
             )
         )
-        binding.bottomNavigationView.setupWithNavController(navController)
         setupActionBarWithNavController(navController, appBarConfiguration)
+        binding.bottomNavigationView.setupWithNavController(navController)
+
 
     }
 
