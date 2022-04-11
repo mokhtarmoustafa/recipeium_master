@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/bottom_sheet_custom.xml" value="0.1945" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/chip_background_color.xml" value="0.1945" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_back.xml" value="0.1945" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_check.xml" value="0.1945" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_duration.xml" value="0.2075" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_filter.xml" value="0.1945" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_joke.xml" value="0.1945" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_like.xml" value="0.2075" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_organic.xml" value="0.2075" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/ic_search.xml" value="0.2075" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/drawable/image_grediant_background.xml" value="0.1935" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/activity_details.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_details.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_favourite.xml" value="0.1" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_favourite2.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_filter.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_joke.xml" value="0.1" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_joke2.xml" value="0.1" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/fragment_recipe.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/ingredient_list_item.xml" value="0.4076163610719323" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/ingredients_fragment.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/instructions_fragment.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/instructions_list_item.xml" value="0.33" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/over_view_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/recipe_list_item.xml" value="0.24641833810888253" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/layout/recipe_list_item_placeholder.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/menu/favourite_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/POP/AndroidStudioProjects/Recipeium/app/src/main/res/menu/home_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
