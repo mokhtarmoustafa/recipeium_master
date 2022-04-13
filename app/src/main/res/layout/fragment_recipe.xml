@@ -72,7 +72,8 @@
             android:layout_height="0dp"
             android:orientation="vertical"
             android:layout_marginTop="10dp"
-
+            app:shimmer_repeat_mode="restart"
+            app:shimmer_shape="linear"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/end"
             app:layout_constraintHorizontal_bias="0.5"
