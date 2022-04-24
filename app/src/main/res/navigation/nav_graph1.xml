@@ -12,12 +12,12 @@
         tools:layout="@layout/fragment_recipe" />
     <fragment
         android:id="@+id/favouriteFragment2"
-        android:name="com.example.recipeium.FavouriteFragment"
+        android:name="com.example.recipeium.ui.favourite.FavouriteFragment"
         android:label="@string/favourite"
         tools:layout="@layout/fragment_favourite2" />
     <fragment
         android:id="@+id/jokeFragment2"
-        android:name="com.example.recipeium.JokeFragment"
+        android:name="com.example.recipeium.ui.joke.JokeFragment"
         android:label="@string/joke"
         tools:layout="@layout/fragment_joke2" />
 </navigation>
